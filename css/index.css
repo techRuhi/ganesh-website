@@ -1,0 +1,536 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbox{
+    height: 100%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 0, 0, 0.839);
+    border-radius: 20px;
+}
+
+.navitem a{
+    padding-left: 15px;
+     padding-right: 15px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+    color: azure;
+    font-family: "EB Garamond", serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.navitem a:hover{
+    background-color: #f8b94e;
+    color: maroon;
+    font-weight: 600;
+}
+
+.image-top{
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/g1.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+    z-index: 0;
+}
+
+.name{
+    font-family: "Bangers", system-ui;
+    font-size: 5rem;
+    color: white;
+
+    position: absolute;
+    top: 150px;
+    left: 60%;
+}
+
+.nameline{
+    font-family: "Bangers", system-ui;
+    font-size: 3rem;
+    color: white;
+
+    position: absolute;
+    top: 280px;
+    left: 60%;
+    
+}
+
+/* -----------------introMain------------------- */
+
+.introMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+}
+
+.text-row{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+}
+
+.intro{
+    font-family: "Englebert", cursive;
+    font-size: 4rem;
+    font-weight: 800;
+    text-decoration: underline;
+    color: maroon;
+}
+
+.intropara{
+    font-style: italic;
+}
+
+.img-row{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border-left:5px solid maroon ;
+}
+
+.g-image{
+    height: 400px;
+    width: 350px;
+    border-radius: 50px;
+}
+
+.g-image img{
+    height: 95%;
+    width: 95%;
+    border-radius: 50px;
+}
+
+
+/* ------------- significance ------------------- */
+
+.significance-top{
+    height: 300px;
+    width: 100%;
+    background-color:rgb(95, 4, 4);
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+/* .container-fluid.significance-top {
+	display: flex;
+	justify-content: center;
+} */
+.significance{
+    position: absolute;
+    width: 90%;
+    height: 350px;
+    border-radius: 30px;
+    background-image: url(../image/g3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signi-lines{
+
+    height:200px ;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+}
+.blur{
+    width: 100%;
+    height: 350px;
+    border-radius: 30px;
+    position:absolute;
+    top: 0px;
+    background-color: #ebd5be98;
+    z-index: 0;
+}
+
+.signi-line1{
+    font-family: "EB Garamond", serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: rgb(86, 3, 3);
+}
+
+.signi-line2{
+    font-family: "Englebert", cursive;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: rgb(200, 107, 0);
+    text-decoration: underline;
+}
+
+.signi-card{
+    height: 200px;
+    width: 80%;
+    position: absolute;
+    top: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-signi{
+    height: 300px;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-signi{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #ee9c0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-signi i{
+     color: maroon;
+     font-size: 2rem;
+}
+
+.heading-card{
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    font:1.2rem;
+}
+
+.signi-para{
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* -------------------festival----------- */
+.festival-top{
+    position: relative;
+    height: 600px;
+    top: 300px;
+    background-image: url(../image/bgBEIGE.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fes-heading{
+    font-family: "EB Garamond", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(86, 3, 3);
+}
+
+.fes-heading::after{
+    content: "Celebration";
+    font-family: "EB Garamond", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(207, 170, 7);
+    margin-left: 10px;
+}
+
+/*------------------- festival ---------------*/
+.fes-card-top{
+    width: 95%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fes-card{
+    height: 400px;
+    width: 250px;
+    border: 1px solid rgb(45, 45, 43);
+    background-color: #710000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 5px 10px rgb(87, 87, 65);
+    transition: all 0.4s ease;
+
+}
+.fes-card:hover{
+    transform: translateY(-10px);
+}
+.fes-img{
+    height: 170px;
+    width:250px;
+}
+
+.fes-img img{
+    height: 100%;
+    width:100%;
+}
+
+.fes-card-heading1{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color:white;
+    text-decoration: underline;
+}
+
+.fes-card-para{
+    color: rgb(203, 203, 163);
+}
+
+/* --------------------temple------------- */
+.temple{
+    height: 600px;
+    position: relative;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temple-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-text1{
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(86, 3, 3);
+}
+
+.t-text1::after{
+    content: "Celebration";
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(207, 170, 7);
+    margin-left: 10px;
+}
+
+.t-text2{
+    font-family: "Pacifico", cursive;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: rgba(86, 3, 3, 0.735);
+}
+
+.temp-text{
+    height: 400px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.temp-img{
+    height: 450px;
+    width: 400px;
+    border-left: 3px solid maroon;
+    border-radius: 50px;
+}
+
+.temp-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.temp-img-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp-tex-top{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.archit{
+    font-family: "Passion One", sans-serif;
+    font-size: 2rem;
+    color: maroon;
+}
+
+.archit-text{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #946005;
+}
+
+.inside-card{
+    display: flex;
+    
+
+}
+.box-out{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #840505;
+    border-top: 5px solid rgb(232, 191, 77);
+    border-radius: 0 0 10px 10px ;
+    box-shadow: 2px 2px 15px rgba(243, 167, 45, 0.853);
+}
+
+.box-icon i{
+    font-size: 2rem;
+    color: rgb(255, 187, 0);
+}
+.box-text{
+    font-family: "EB Garamond", serif;
+    color: rgb(200, 189, 189);
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.box-line{
+    width: 80%;
+    color: #e1c087;
+    font-size: 0.8rem;
+}
+
+/* -------------------------- gallery ------------------ */
+.gallery{
+    height: 700px;
+    display: flex;
+    background-image: url(../image/temp-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    top: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-text{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.g-head{
+    font-family: "Bangers", system-ui;
+    font-size: 3rem;
+    color: rgb(98, 3, 3);
+}
+
+.g-head-text{
+     font-family: "Englebert", cursive;
+    font-size: 1.3rem;
+    color: maroon;
+    font-style: italic;
+}
+
+.g-head-para{
+    font-size: 0.8rem;
+    color: rgb(196, 0, 0);
+    font-style: italic;
+}
+
+.g-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.gallery-box{
+    height: 380px;
+    width: 250px;
+    border: 1px solid black;
+    background-color: #6e1010f9;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in;
+}
+.gallery-box:hover{
+    transform: rotate(10deg);
+}
+.gallery-img{
+    height:300px ;
+    width: 250px;
+    border-radius: 30px;
+    border: 3px solid rgb(255, 174, 0);
+}
+
+.gallery-img img{
+    height:100% ;
+    width: 100%;
+    border-radius: 30px;
+}
+.gallery-img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-img-text i{
+    font-size: 2rem;
+    color: #ee9c0e;
+}
+
+span{
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #ee9c0e;
+    text-decoration: underline;
+}
+
